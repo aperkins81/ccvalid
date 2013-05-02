@@ -12,7 +12,7 @@ ruby ccvalid.rb
 ruby tester.rb
 
 ## Output:
-`
+```
 $ ruby ccvalid.rb
 VISA: 4111111111111111       (valid)
 VISA: 4111111111111          (invalid)
@@ -22,10 +22,10 @@ Discover: 6011111111111117   (valid)
 MasterCard: 5105105105105100 (valid)
 MasterCard: 5105105105105106 (invalid)
 Unknown: 9111111111111111    (invalid)
-`
+```
 
 ##Tests:
-`
+```
 Valid card with spaces should be valid............................ PASS (t == t)
 Invalid card with spaces should not be valid...................... PASS (f == f)
 Valid card should be valid........................................ PASS (t == t)
@@ -143,4 +143,4 @@ Card starting with 57 is not MasterCard........................... PASS (f == f)
 Card starting with 50 is not MasterCard........................... PASS (f == f)
 
 Tests: 115.  Passes:  (100%).  Failures: 0 (0%)
-`
+```
