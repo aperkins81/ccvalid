@@ -3,15 +3,15 @@ ccvalid
 
 Validates credit card numbers.
 
-Usage:
+#### Usage:
 
 ruby ccvalid.rb
 
-## Testing:
+#### Testing:
 
 ruby tester.rb
 
-## Output:
+#### Output:
 ```
 $ ruby ccvalid.rb
 VISA: 4111111111111111       (valid)
@@ -24,7 +24,7 @@ MasterCard: 5105105105105106 (invalid)
 Unknown: 9111111111111111    (invalid)
 ```
 
-##Tests:
+#### Tests:
 ```
 Valid card with spaces should be valid............................ PASS (t == t)
 Invalid card with spaces should not be valid...................... PASS (f == f)
